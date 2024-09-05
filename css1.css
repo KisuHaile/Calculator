@@ -1,0 +1,71 @@
+/* General Styles for the Body */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://imgs.search.brave.com/0AaCvXEcghTsgevcZiiLL2XcoDZJsRvJ6_-7fYfEngA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTgy/MDU4MDg0L3Bob3Rv/L2NhbGN1bGF0aW5n/LWZpbmFuY2VzLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1q/ZVltREI2WE1MUG03/dndFS2lOeXNMMWl5/bl9ZMGFZTFV5MDlQ/SmFHdGdzPQ);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Calculator Container Styles */
+.calculator {
+    width: 28vw; 
+    height: 55vh; 
+    border: 1px solid #ccc;
+    margin: 100px auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    backdrop-filter: blur(85px);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* Display Area Styles */
+.displayarea {
+    margin: 5px; 
+    width: 100%;
+    margin-bottom: 10px; /* Space below the display area */
+}
+
+#display {
+    width: 48%; 
+    height: 8vh; 
+    border-radius: 10px;
+    font-size: 24px; 
+    text-align: right; 
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Button Styles */
+.calculator button {
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px; 
+    font-size: 20px; 
+    margin: 5px; 
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+/* Button Hover Styles */
+.calculator button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Row Styles */
+.displayarea, .firstrow, .secondrow, .thirdrow, .finalrow {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    margin-bottom: 5px; 
+}
+
+.name{
+    font-style: italic;
+}
